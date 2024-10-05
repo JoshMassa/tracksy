@@ -4,7 +4,7 @@ Welcome to Tracksy, a personal assistant that tracks your monthly budget and exp
 
 This application is still under development.
 
-To view the current state of this application, please visit: https://www.tracksy.onrender.com
+To view the current state of this application, please visit: https://tracksy.onrender.com
 
 ## Disclaimer
 

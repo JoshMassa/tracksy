@@ -61,7 +61,7 @@ header {
   padding: 5px 25px;
   width: 100vw;
   position: fixed;
-  top: 108px;
+  top: 20%;
   left: -100%;
   opacity: 0;
   transition: all 0.5s ease;
@@ -106,7 +106,7 @@ header {
 .formatted-date {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
   font-size: 28px;
 }
 
@@ -147,4 +147,70 @@ header {
   color: green;
   background-color: beige;
   border: 2px solid green;
+}
+
+.set-budget-input {
+  width: 50%;
+}
+
+.set-budget-container,
+.expense-category-container,
+.expense-amount-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.set-budget-container {
+  margin-top: 5rem;
+}
+
+.expense-category-container,
+.expense-amount-container {
+  margin-top: 2rem;
+}
+
+.set-budget-container h1,
+.expense-category-container h1,
+.expense-amount-container h1 {
+  margin-bottom: 25px;
+  color: white;
+}
+
+.save-expense-button {
+  display: flex;
+  margin: 25px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.set-budget-input,
+.expense-category-select,
+.expense-amount-input {
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  text-align: center;
+}
+
+.history-chart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.history-chart-container h1 {
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.legend-container ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0px 10px 15px 10px;
 }

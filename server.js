@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 
 // Create an instance of the Express app
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // Get the directory name of the current module
 const __filename = fileURLToPath(import.meta.url);
